@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>function hello(){}</h1>
+    <h1>const hello =function hello(){}</h1>
+    <h1>const hello =() =>{}</h1>
+    <!-- <h1>(() => {} )()</h1> -->
+    <script>
+// function addb (a,b){
+//     return a+b;
+// }
+// consol.log(addb(3,2));
+
+
+// single line of code
+   const number =(a,b)=>a+b;
+   console.log(number(10,50));
+//    single line of code with if else
+   const chart =(a,b)=>{
+if(a>b)
+return "a is greater";
+else
+return "b is greater";
+   }
+   console.log(chart(50,90));
+   document.write(chart(90,60));
+   document.write("<br>");
+   const pie =(rb)=>"Rafia,"+rb +"!";
+   console.log(pie("Bonna"));
+     document.write(pie("Bonna"));
+
+   </script> 
+</body>
+</html>

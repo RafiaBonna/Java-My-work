@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let k =parseInt(prompt("input the number"));
+        let f =parseInt(prompt("input the number"));
+        let c =parseInt(prompt("input the number"));
+        if (k>f){
+            cup = k;
+            k = f ;
+            f = cup;
+        }
+        if (k>c){
+            cup = c;
+            c = k ;
+            k = cup;
+        }
+        if (f>c){
+            cup = f;
+            f = c;
+            c = cup;
+        }
+        document.write(k+","+f+","+c);
+    </script>
+</body>
+</html>

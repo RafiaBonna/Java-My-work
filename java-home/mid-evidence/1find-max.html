@@ -6,7 +6,7 @@
     <title>Find the largest number</title>
 </head>
 <body>
-   <script>
+   <!-- <script>
 let m = prompt ();
 let b = prompt ();
 let a = prompt ();
@@ -21,6 +21,22 @@ let a = prompt ();
  else{
     document.write("the largest number"+" "+a);
  }
+   </script> -->
+   <script>
+      let x = prompt();
+      let y = prompt();
+      let z = prompt();
+      x = parseFloat(x);
+      y = parseFloat(y);
+      z = parseFloat(z);
+      if(x>y && x>z ){
+         document.write("The large number is ="+" "+x);
+      } else if(y>x && y>z){
+        document.write("The large number is ="+" "+y); 
+      }
+      else{
+        document.write("The large number is ="+" "+z);  
+      }
    </script> 
 </body>
 </html> 

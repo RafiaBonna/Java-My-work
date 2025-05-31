@@ -6,19 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-
   <script>
-    let u =prompt();
-    if (u>=80){
-        document.write("A+");
-    } else if (u>=70){
+    let d =prompt("input your number");
+    if (d>=90 && d<=100){
         document.write("A");
-    } else if (u>=60){
+    } else if(d>=80 && d<=89){
         document.write("B");
+    } else if (d>=70 && d>=79){
+        document.write("C");
+    } else if(d>=60 && d<=69){
+        document.write("D");
     }
     else{
-       document.write("F");   
+        document.write("F");
     }
-  </script>
+  </script>  
 </body>
 </html>
